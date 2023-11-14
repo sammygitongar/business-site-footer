@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+
+    <style>
+        footer{
+            display: flex;
+            justify-content: space-around;
+            background: beige;
+            padding-bottom: 20px;
+        }
+
+        .git{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h3{
+            color: rgb(30, 61, 53);
+        }
+
+        .git .social a{
+            padding-right: 20px;
+        }
+
+        .cwu a{
+            text-decoration: none;
+            display: flex;
+            background: green;
+            padding: 0px 50px;
+            color: aliceblue;
+            font-weight: 700;
+            border-radius: 25px;
+            transition: 1s ease;
+        }
+
+        .cwu a:hover{
+            background: rgba(0, 128, 0, 0.637);
+        }
+
+        .cwu a p{
+            font-size: 20px;
+        }
+
+        .cwu a i{
+            padding-right: 10px;
+            line-height: 3.3;
+            font-size: 20px;
+
+        }
+
+        @media(max-width:575px){
+            footer{
+                flex-direction: column;
+                margin: 0;
+                padding: 10px;
+            }
+
+            .cwu a{
+                width: 50%;
+            }
+        }
+
+        .git .social{
+            margin-left: calc(4vw + 10px);
+        }
+    </style>
+
+
+    <footer>
+        <div class="git">
+            <div>
+                <h3>Contacts</h3>
+                <p>Email: wavicki@gmail.com</p>
+                <p>Phone: +254-728-527490</p>
+            </div>
+            <div class="social">
+                <h3>Socials</h3>
+                <a href="https://www.facebook.com/kmuigua1?mibextid=ZbWKwL"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://twitter.com/Wavicki?t=1L6d2Cj-8LcYJMKCqWMC1g&s=09"><i class="uil uil-twitter-alt"></i></a>
+            </div>
+        </div>
+        <div class="cwu">
+            <div>
+                <h3>Chat With US</h3>
+                <a href="https://wa.me/message/XNTQYY2MIEV3M1">
+                    <i class="uil uil-whatsapp"></i>
+                    <p>Start a Chat</p>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
